@@ -92,7 +92,6 @@ export function App() {
       setManifests(localManifests);
     } catch (e) {
       setManifests(undefined);
-      console.log(e.stderr);
       ddClient.desktopUI.toast.error(e.stderr);
     }
     setButtonText(undefined);

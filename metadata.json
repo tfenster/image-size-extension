@@ -1,5 +1,5 @@
 {
-  "icon": "docker.svg",
+  "icon": "tfe.svg",
   "vm": {
     "composefile": "docker-compose.yaml",
     "exposes": {
@@ -8,7 +8,7 @@
   },
   "ui": {
     "dashboard-tab": {
-      "title": "Image-Size-Extension",
+      "title": "Image size",
       "src": "index.html",
       "root": "ui",
       "backend": {
